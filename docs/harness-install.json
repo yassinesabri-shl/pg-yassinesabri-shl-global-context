@@ -4,12 +4,12 @@
   "shape": "global",
   "library": {
     "harnessVersion": "0.9.4",
-    "contentHash": "9ac31d2af63c449c79315aaca420f5ed09c586187aaa0fefb55fb43c92c2ad5b",
-    "libraryCommit": "d43c2c7fc6484d00eab4552abeeb8a54a8966a66",
+    "contentHash": "61c62dc7b024c4679642728037e052a8918b7ed32428d88085065cfaa7b6673e",
+    "libraryCommit": "278c1069c0c15b00c4089306a0e54373fcd3e5d6",
     "tag": null,
     "release": false,
     "upstreamLibraryHash": "c6f3b4427d58f7c3",
-    "chosenBy": "argument"
+    "chosenBy": "upgrade"
   },
   "hub": {
     "trunk": "main",
@@ -109,16 +109,16 @@
       "row": "208b",
       "source": "accelerator/scripts/confluence-page.mjs",
       "mode": "verbatim",
-      "sourceBlob": "4f4a93ed5d1e683e677fb0075414263b60df4ebf",
-      "installedHash": "6fa18f90bc02a97bbcbda7b50b3dae0ddacdbfff9e5ab0cc84d327aa0be3a40d",
+      "sourceBlob": "f833c0d5b913d0fc70e6d4943ed6b89026c2ee8d",
+      "installedHash": "8307883753e2e99a5bc21b1f1c2dd06252e81945a8deb2870c6157d35b982337",
       "state": "installed"
     },
     "scripts/confluence-sync.mjs": {
       "row": "208",
       "source": "accelerator/scripts/confluence-sync.mjs",
       "mode": "verbatim",
-      "sourceBlob": "d0677228be9bfbe3c84ef19ba8ff6716cfc14b63",
-      "installedHash": "53c6e286d278673f90500bbc4b52e5af1ec0cebaa18fcc307665b3df2fd05a72",
+      "sourceBlob": "39dcef5b285c48cf965613ce9c0991ba2ea58582",
+      "installedHash": "ccc26f31538437d235d3a1a6c76c19859c4ce24fe1c3c842b14da251712453e9",
       "state": "installed"
     },
     "scripts/confluence.mjs": {
