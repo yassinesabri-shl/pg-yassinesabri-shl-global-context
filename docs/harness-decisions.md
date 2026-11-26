@@ -13,8 +13,8 @@
 | Shape | the global context repository |
 | Library hash | c6f3b4427d58f7c3 |
 | Library file count | 323 |
-| Library content hash | 9ac31d2af63c449c79315aaca420f5ed09c586187aaa0fefb55fb43c92c2ad5b |
-| Library commit | d43c2c7fc6484d00eab4552abeeb8a54a8966a66 |
+| Library content hash | 61c62dc7b024c4679642728037e052a8918b7ed32428d88085065cfaa7b6673e |
+| Library commit | 278c1069c0c15b00c4089306a0e54373fcd3e5d6 |
 | Harness version | 0.9.4 (branch harness/confluence-sync, not a release; no tag) |
 | Generated on | 2026-11-26 |
 | Interviewed role | Repository owner |
@@ -66,6 +66,7 @@ Every `UNRESOLVED` line the install wrote, and every proposal an upgrade left be
 | UNRESOLVED — The trunk is not limited to Board merges. | the trunk's protection | Global Architecture Board | when the trunk's protection allows only the Board |
 | UNRESOLVED — No first release is tagged (v1.0.0). | the repository's tags | Global Architecture Board | when the Board tags v1.0.0 with release notes |
 | UNRESOLVED — Confluence sync secrets HARNESS_CONFLUENCE_USER, HARNESS_CONFLUENCE_TOKEN and HARNESS_CONTEXT_SYNC_TOKEN are not set. | the repository secrets | Global Architecture Board | when the Board sets the three secrets |
+| UNRESOLVED — `.claude/settings.json.shl-new` (needs a hand): the hub has no such file, so it lacks the entries rows 171 and 177a add (accelerator/settings/test-quality-hook.settings.json, accelerator/settings/observability-hooks.settings.json). Its settings are kept and merged, never written over. Owner: tech lead. Resolves: when it is merged into `.claude/settings.json` or deleted. | `.claude/settings.json.shl-new` | tech lead | the `.shl-new` and its diff are gone from the trunk |
 
 ## 5. Upgrades
 
@@ -74,3 +75,4 @@ state.
 
 | Date | From library commit | To library commit | Replaced | Merged | Proposed (`.shl-new`) | Pull request |
 |---|---|---|---|---|---|---|
+| 2026-11-26 | d43c2c7fc648 | 278c1069c0c1 | 2 | 0 | 1 | `harness/upgrade-278c1069c0c1` |
