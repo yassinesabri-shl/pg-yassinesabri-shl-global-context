@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "note": "The install receipt: what this repository holds from the harness library, written only by `node $LIB/scripts/upgrade.mjs`. Current state, not history — the ledger (docs/harness-decisions.md) holds the history. Never edit by hand; a receipt that disagrees with the files is worse than none, because it is trusted.",
+  "shape": "global",
+  "library": {
+    "harnessVersion": "0.9.4",
+    "contentHash": "9ac31d2af63c449c79315aaca420f5ed09c586187aaa0fefb55fb43c92c2ad5b",
+    "libraryCommit": "d43c2c7fc6484d00eab4552abeeb8a54a8966a66",
+    "tag": null,
+    "release": false,
+    "upstreamLibraryHash": "c6f3b4427d58f7c3",
+    "chosenBy": "argument"
+  },
+  "hub": {
+    "trunk": "main",
+    "moduleType": "commonjs"
+  },
+  "recordedOn": "2026-11-26",
+  "files": {
+    ".claude/commands/add-context.md": {
+      "row": "154",
+      "source": "accelerator/global/add-context.md",
+      "mode": "verbatim",
+      "sourceBlob": "104960481de541e86ce69e76048b06c93dd74e09",
+      "installedHash": "7b50cfa94359be03a38a80a04e339ce64b19c16670fcfb41e2e40a2230a4ae45",
+      "state": "installed"
+    },
+    ".claude/commands/connect-confluence.md": {
+      "row": "212a",
+      "source": "accelerator/commands/connect-confluence.md",
+      "mode": "verbatim",
+      "sourceBlob": "9fdf5648b0ea0b0a31f9a1e510cf241db9832c02",
+      "installedHash": "6d31331c4c1b68d1da84f6a1fddb6e69560ae161df37233642b2380a866194e9",
+      "state": "installed"
+    },
+    ".github/CODEOWNERS": {
+      "row": "159",
+      "source": null,
+      "mode": "new",
+      "sourceBlob": null,
+      "installedHash": "0661610587ff25b13ef53ca88a218b4e488d53efe4890b70bab645be9d8e201d",
+      "state": "installed"
+    },
+    ".github/workflows/context-sync.yml": {
+      "row": "209",
+      "source": "accelerator/global/context-sync.workflow.yml",
+      "mode": "adapt",
+      "sourceBlob": "109df8bb8990d3dfdd940f06ccb61a2544949757",
+      "installedHash": "282747d0d1f845afdbf9e34596e739fdd561e5e0909dee7c8c762e71dca3a478",
+      "state": "installed"
+    },
+    ".github/workflows/global-gate.yml": {
+      "row": "153",
+      "source": "accelerator/global/global-gate.workflow.yml",
+      "mode": "adapt",
+      "sourceBlob": "446a9eae78cfe66a2ea0ce2df3300c3c42c93e73",
+      "installedHash": "ddb5f8da08058db1ec5017502b5db939ae28e33b3ab00388c4aecf84d1bca495",
+      "state": "installed"
+    },
+    "docs/architecture/_TEMPLATE.adr.md": {
+      "row": "155",
+      "source": "accelerator/templates/ADR.template.md",
+      "mode": "verbatim",
+      "sourceBlob": "72e8bbbb76f36b4cfd6723393415a5d7c51429e6",
+      "installedHash": "7d73b857c9c6a9e6ff6b9fd6598e611e517b71ab53080f57cbbfc4816e95fd05",
+      "state": "installed"
+    },
+    "docs/estate/confluence.json": {
+      "row": "210a",
+      "source": "accelerator/templates/confluence.template.json",
+      "mode": "verbatim",
+      "sourceBlob": "c99153774a4ee0191f0004f36023e53da0677b2a",
+      "installedHash": "def8784888b914d7a7ea4670b01035508dce0a38b7858cef9b0b6c628afe0227",
+      "state": "installed"
+    },
+    "docs/exceptions/_TEMPLATE.exception.md": {
+      "row": "152",
+      "source": "accelerator/templates/exception.template.md",
+      "mode": "verbatim",
+      "sourceBlob": "a3bd57be22873af7ae695a1124976e08027ed6a6",
+      "installedHash": "bb465475777b855c403b2dc335d6099ecb4215dfd116119eb764a02c35452470",
+      "state": "installed"
+    },
+    "docs/harness-decisions.md": {
+      "row": "158",
+      "source": "accelerator/global/harness-decisions.template.md",
+      "mode": "adapt",
+      "sourceBlob": "3cb76806e0eebba5c5bde7c4a9e15e58a7c4141d",
+      "installedHash": "2bedbf45823cf612ba23bdb8a024fa5e9d67a447f3e9b41948438a1fe118e07f",
+      "state": "installed"
+    },
+    "docs/standards/_TEMPLATE.standard.md": {
+      "row": "156",
+      "source": "accelerator/templates/standard.template.md",
+      "mode": "verbatim",
+      "sourceBlob": "49af5cc36677da2c92f903d70b7ac61b98647ca5",
+      "installedHash": "a984b0d4549a1c02fed434748be36bd88849c8f12737e8b201df225089c2e0c6",
+      "state": "installed"
+    },
+    "scripts/check-context.mjs": {
+      "row": "157",
+      "source": "accelerator/scripts/check-context.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "02c0f02b9ec8cc26298d95d77f44fd380cbec9e4",
+      "installedHash": "fb7472973b898334c9421f8b7b203408de051a95232fc428a17ccfa9f22fcfdb",
+      "state": "installed"
+    },
+    "scripts/confluence-page.mjs": {
+      "row": "208b",
+      "source": "accelerator/scripts/confluence-page.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "4f4a93ed5d1e683e677fb0075414263b60df4ebf",
+      "installedHash": "6fa18f90bc02a97bbcbda7b50b3dae0ddacdbfff9e5ab0cc84d327aa0be3a40d",
+      "state": "installed"
+    },
+    "scripts/confluence-sync.mjs": {
+      "row": "208",
+      "source": "accelerator/scripts/confluence-sync.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "d0677228be9bfbe3c84ef19ba8ff6716cfc14b63",
+      "installedHash": "53c6e286d278673f90500bbc4b52e5af1ec0cebaa18fcc307665b3df2fd05a72",
+      "state": "installed"
+    },
+    "scripts/confluence.mjs": {
+      "row": "208a",
+      "source": "accelerator/scripts/confluence.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "07c1c6091c395b03ffc43dcd02d294ef3752598c",
+      "installedHash": "5ea817167816037990c85956df6bc0393bde29d250eba481e11e2341c221734f",
+      "state": "installed"
+    },
+    "scripts/context-docs.mjs": {
+      "row": "157a",
+      "source": "accelerator/scripts/context-docs.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "430e9583187228b66c96955e95722f5f58ee1eb4",
+      "installedHash": "9302fa9d86f111aa1981e0c92040f356fada72f2aa5a1d908edba11fdb2ece5a",
+      "state": "installed"
+    },
+    "scripts/spoke-remote.mjs": {
+      "row": "157b",
+      "source": "accelerator/scripts/spoke-remote.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "42fdf474122253648c68df84ebd481d0cf935520",
+      "installedHash": "d45cf6db11a3fdeb5dfe2381b4aafb4296a7bc3a3b076a668404f927edf17aa6",
+      "state": "installed"
+    },
+    "scripts/spoke-rules.mjs": {
+      "row": "157c",
+      "source": "accelerator/scripts/spoke-rules.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "b18e027a49b141f5a472fc789821b3cb9149c872",
+      "installedHash": "41e53be54e1d7a07bc301159aa501000716abe286d4110bab464b3c2357424e7",
+      "state": "installed"
+    },
+    "tests/check-context/run.mjs": {
+      "row": "157d",
+      "source": "accelerator/scripts/tests/check-context/run.mjs",
+      "mode": "verbatim",
+      "sourceBlob": "65ece537287a2696cba4ff42b156279e70afa1ab",
+      "installedHash": "bfb7d8feca8ea1d92555a95e9666a17b619251e3c22d65e005dcd2caeeb42f90",
+      "state": "installed"
+    }
+  }
+}
