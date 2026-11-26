@@ -4,7 +4,7 @@ description: How every public API names its eng-ci.
 globs: []
 alwaysApply: false
 kind: standard
-status: Active
+status: Deprecated
 owner: Lead architect
 revision: 1
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809957/std-eng-ci+CI+pipelines (Confluence page 474809957)

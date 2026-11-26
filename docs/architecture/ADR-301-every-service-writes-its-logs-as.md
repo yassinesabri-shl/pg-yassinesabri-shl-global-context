@@ -4,7 +4,7 @@ description: We use Postgres for every new service that needs a relational store
 globs: []
 alwaysApply: true
 kind: adr
-status: Accepted
+status: Superseded by ADR-101
 owner: Platform architect
 revision: 1
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809917/ADR-301+Every+service+writes+its+logs+as+JSON+to+standard+output (Confluence page 474809917)

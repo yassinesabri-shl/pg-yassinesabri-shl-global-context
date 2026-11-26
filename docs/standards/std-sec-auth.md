@@ -4,7 +4,7 @@ description: How every public API names its sec-auth.
 globs: []
 alwaysApply: false
 kind: standard
-status: Reserved
+status: Deprecated
 owner: Lead architect
 revision: 1
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474678614/std-sec-auth+Authentication (Confluence page 474678614)
